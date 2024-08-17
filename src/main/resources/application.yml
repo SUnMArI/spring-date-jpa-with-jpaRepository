@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: 19_THY_SOPHEAK_SPRING_DATA_JPA_HOMEWORK
+  datasource:
+    url : jdbc:postgresql://localhost:5433/test1
+    username: postgres
+    password: 1234
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
